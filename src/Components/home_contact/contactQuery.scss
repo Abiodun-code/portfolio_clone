@@ -1,0 +1,157 @@
+$width: 100%;
+$height: auto;
+$color: #777777;
+$color2: #aaa;
+$bgColor: #111;
+$bigFont: 'Bebas Neue', cursive;
+
+@media screen and (max-width: 1200px) and (min-width: 1023px) {
+  .home_contact .wrapper {
+    padding: 2rem 0 0 0;
+  }
+  
+    .wrapper .contact_top {
+      width: calc($width - 60%);
+      height: $height;
+  
+      span {
+        font-size: 1.019rem;
+      }
+    }
+
+    .contact_bottom .contact_text{
+  width: $width;
+  height: $height;
+  padding-top: 2rem;
+
+  a{
+    font-family: $bigFont;
+    font-size: 9rem;
+    cursor: pointer;
+    color: $color;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+}
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 993px) {
+  .home_contact .wrapper {
+    padding: 2rem 0 0 0;
+  }
+  
+    .wrapper .contact_top {
+      width: calc($width - 50%);
+      height: $height;
+  
+      span {
+        font-size: 1.3rem;
+      }
+  }
+
+  .contact_bottom .contact_text{
+  width: $width;
+  height: $height;
+  padding-top: 2rem;
+
+  a{
+    font-family: $bigFont;
+    font-size: 7rem;
+    cursor: pointer;
+    color: $color;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+}
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .home_contact .wrapper {
+    padding: 2rem 0 0 0;
+  }
+  
+    .wrapper .contact_top {
+      width: calc($width - 40%);
+      height: $height;
+  
+      span {
+        font-size: 1.3rem;
+      }
+  }
+
+  .contact_bottom .contact_text{
+  width: $width;
+  height: $height;
+  padding-top: 2rem;
+
+  a{
+    font-family: $bigFont;
+    font-size: 7rem;
+    cursor: pointer;
+    color: $color;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+}
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+  .home_contact .wrapper {
+    padding: 2rem 0 0 0;
+  }
+  
+    .wrapper .contact_top {
+      width: calc($width - 30%);
+      height: $height;
+  
+      span {
+        font-size: 1.3rem;
+      }
+  }
+
+  .contact_bottom .contact_text{
+  width: $width;
+  height: $height;
+  padding-top: 2rem;
+
+  a{
+    font-family: $bigFont;
+    font-size: 5rem;
+    cursor: pointer;
+    color: $color;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+}
+}
+
+@media screen and (max-width: 600px) and (min-width: 223px) {
+  .home_contact .wrapper {
+    padding: 2rem 0 0 0;
+  }
+  
+    .wrapper .contact_top {
+      width: calc($width - 20%);
+      height: $height;
+  
+      span {
+        font-size: 1.3rem;
+      }
+  }
+
+  .contact_bottom .contact_text{
+  width: $width;
+  height: $height;
+  padding-top: 2rem;
+
+  a{
+    font-family: $bigFont;
+    font-size: 4rem;
+    cursor: pointer;
+    color: $color;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+}
+}

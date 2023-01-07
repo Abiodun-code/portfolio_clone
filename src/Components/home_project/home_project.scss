@@ -1,0 +1,66 @@
+$width: 100%;
+$height: auto;
+$color: #777777;
+$color2: #aaa;
+$bgColor: #111;
+$bigFont: 'Bebas Neue', cursive;
+
+.home_project {
+  width: calc($width - 5%);
+  height: $height;
+  margin: auto;
+}
+
+.home_project .wrapper {
+  width: $width;
+  height: $height;
+  padding: 3rem 0 0rem 0;
+}
+
+.wrapper .project_right{
+  width: $width;
+  height: $height;
+  padding-bottom: 2rem;
+}
+
+.project_right .project_line{
+  width: calc($width - 5%);
+  height: $height;
+  margin: auto;
+
+  .line{
+    width: $width;
+    height: $height;
+    padding: .1rem;
+    background: $color;
+  }
+}
+
+.project_right .project_label{
+  width: calc($width - 40%);
+  height: $height;
+  margin: auto 4rem auto auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+
+  span{
+    font-size: .9rem;
+  }
+}
+
+.project_right .project_link {
+  width: calc($width);
+  height: $height;
+  padding-top: 1rem;
+  font-family: $bigFont;
+
+  a{
+    text-decoration: none;
+    color: $color2;
+    font-size: 9rem;
+    letter-spacing: .1rem;
+    white-space: nowrap;
+    z-index: 1;
+  }
+}

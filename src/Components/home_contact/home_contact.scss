@@ -1,0 +1,60 @@
+$width: 100%;
+$height: auto;
+$color: #777777;
+$color2: #aaa;
+$bgColor: #111;
+$bigFont: 'Bebas Neue', cursive;
+
+.home_contact {
+  width: calc($width - 5%);
+  height: $height;
+  margin: auto;
+}
+
+.home_contact .wrapper {
+  width: $width;
+  height: $height;
+  padding: 3rem 0 0 0;
+}
+
+.wrapper .contact_top{
+  width: calc($width - 65%);
+  height: $height;
+  margin: auto;
+  text-align: center;
+
+  span{
+    font-size: 1rem;
+  }
+}
+
+.wrapper .contact_bottom{
+  width: $width;
+  height: $height;
+}
+
+.contact_bottom .contact_line {
+  width: $width;
+  height: $height;
+  padding-top: 2rem;
+
+  .line{
+    padding: .1rem;
+    background-color: $color;
+  }
+}
+
+.contact_bottom .contact_text{
+  width: $width;
+  height: $height;
+  padding-top: 2rem;
+
+  a{
+    font-family: $bigFont;
+    font-size: 9rem;
+    cursor: pointer;
+    color: $color;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+}

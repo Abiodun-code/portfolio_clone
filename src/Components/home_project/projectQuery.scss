@@ -1,0 +1,83 @@
+$width: 100%;
+$height: auto;
+$color: #777777;
+$color2: #aaa;
+$bgColor: #111;
+$bigFont: 'Bebas Neue', cursive;
+
+@media screen and (max-width: 1200px) and (min-width: 1023px) {
+  .home_project .wrapper {
+    padding: 6rem 0 0rem 0;
+  }
+
+  .project_right .project_link {
+    a{
+      font-size: 7rem;
+      white-space: nowrap;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 993px){
+  .home_project .wrapper {
+    padding: 6rem 0 0rem 0;
+  }
+
+  .project_right .project_link {
+    a{
+      font-size: 6rem;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .home_project .wrapper {
+      padding: 6rem 0 0rem 0;
+    }
+  
+    .project_right .project_link {
+      a {
+        font-size: 4.8rem;
+      }
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+  .home_project .wrapper {
+    padding: 6rem 0 0rem 0;
+  }
+
+  .project_right .project_label{
+    width: calc($width - 30%);
+
+    span{
+      font-size: .7rem;
+    }
+  }
+
+    .project_right .project_link {
+      a {
+        font-size: 3.5rem;
+      }
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 223px) {
+  .home_project .wrapper {
+      padding: 6rem 0 0 0;
+    }
+  
+    .project_right .project_label {
+      width: calc($width - 15%);
+  
+      span {
+        font-size: .5rem;
+      }
+    }
+  
+    .project_right .project_link {
+      a {
+        font-size: 4rem;
+      }
+    }
+}

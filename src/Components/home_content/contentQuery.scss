@@ -1,0 +1,128 @@
+$width: 100%;
+$height: auto;
+$color: #777777;
+$color2: #aaa;
+$bgColor: #111;
+$bigFont: 'Bebas Neue', cursive;
+
+@media screen and (max-width: 1200px) and (min-width: 1023px){
+  .wrapper .home_top,
+    .home_bottom {
+      text-align: center;
+      width: $width;
+    }
+  
+    .home_top h1 {
+      font-size: 1rem;
+    }
+  
+    .home_bottom h2 {
+      font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 993px){
+  .home_content {
+      width: calc($width - 30%);
+      height: $height;
+      margin: auto;
+    }
+
+  .wrapper .home_top,
+    .home_bottom {
+      text-align: center;
+      width: $width;
+    }
+  
+    .home_top h1 {
+      font-size: 1rem;
+    }
+  
+    .home_bottom h2 {
+      font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .home_content {
+      width: calc($width - 30%);
+      height: $height;
+      margin: auto;
+    }
+
+    .home_content .wrapper {
+      width: $width;
+      height: $height;
+      padding: 3rem 0 3rem 0;
+    }
+  
+    .wrapper .home_top,
+    .home_bottom {
+      text-align: center;
+      width: $width;
+    }
+  
+    .home_top h1 {
+      font-size: 1rem;
+    }
+  
+    .home_bottom h2 {
+      font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+  .home_content {
+      width: calc($width - 30%);
+      height: $height;
+      margin: auto;
+    }
+
+    .home_content .wrapper {
+      width: $width;
+      height: $height;
+      padding: 3rem 0 3rem 0;
+    }
+  
+    .wrapper .home_top,
+    .home_bottom {
+      text-align: center;
+      width: $width;
+    }
+  
+    .home_top h1 {
+      font-size: 1rem;
+    }
+  
+    .home_bottom h2 {
+      font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 223px) {
+  .home_content {
+      width: calc($width - 20%);
+      height: $height;
+      margin: auto;
+    }
+  
+    .home_content .wrapper {
+      width: $width;
+      height: $height;
+      padding: 3rem 0 3rem 0;
+    }
+
+    .wrapper .home_top,
+    .home_bottom {
+      text-align: start;
+      width: $width;
+    }
+  
+    .home_top h1 {
+      font-size: .8rem;
+    }
+  
+    .home_bottom h2 {
+      font-size: 1rem;
+    }
+}

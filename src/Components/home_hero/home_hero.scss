@@ -1,0 +1,114 @@
+$width: 100%;
+$height: auto;
+$color: #777777;
+$color2: #aaa;
+$bgColor: #111;
+$bigFont: 'Bebas Neue', cursive;
+
+.home_hero{
+  width: calc($width - 5%);
+  height: $height;
+  margin: auto;
+}
+
+.home_hero .wrapper {
+  width: $width;
+  height: $height;
+}
+
+.wrapper .home_hero_top, .home_hero_bottom{
+  width: $width;
+  height: $height;
+  display: flex;
+  justify-content: space-between;
+}
+
+// Home Hero Top
+.home_hero_top .home_front{
+  width: calc($width - 30%);
+  height: $height;
+  font-family: $bigFont;
+  line-height: 1;
+
+  span{    
+    font-size: 20rem;
+    font-weight: 300;
+    letter-spacing: -1rem;
+    &:hover{
+      color: $color2;
+      transition: all ease-in-out;
+    }
+  }
+}
+
+.home_hero_top .home_line{
+  width: calc($width - 50%);
+  height: $height;
+  font-family: $bigFont;
+  margin-top: 7rem;
+
+  .line{
+    width: calc($width);
+    height: $height;
+    margin: auto;
+    padding: 1rem;
+    background-color: $color;
+  }
+}
+
+.home_hero_top .home_end{
+  width: calc($width - 45%);
+  height: $height;
+  font-family: $bigFont;
+  line-height: 1;
+
+  span {
+    font-size: 20rem;
+    font-weight: 300;
+    letter-spacing: -1rem;
+
+    &:hover {
+      color: $color2;
+      transition: all ease-in-out;
+    }
+  }
+}
+
+// Home Hero Bottom
+
+.home_hero_bottom .home_developer {
+  width: calc($width - 25%);
+  height: $height;
+  font-family: $bigFont;
+  line-height: 1;
+  letter-spacing: -.105em;
+  flex-shrink: 0;
+
+  span {
+    font-size: 20rem;
+    font-weight: 300;
+    letter-spacing: -1rem;
+
+    &:hover {
+      color: $color2;
+      transition: all ease-in-out;
+    }
+  }
+}
+
+.home_hero_bottom .home_about {
+  width: calc($width - 80%);
+  height: $height;
+  padding-top: 2.5rem;
+  
+  span{
+    font-size: 1.2rem;
+    color: $color2;
+
+    h2{
+      font-size: 1rem;
+      color: $color;
+    }
+  }
+}
+
